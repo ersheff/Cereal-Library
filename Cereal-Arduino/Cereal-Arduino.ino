@@ -2,7 +2,7 @@
 #include "Cereal.h"
 
 // create a CerealAnalog object for each analog input you will be using
-CerealAnalog analogSensor("knob", 0);
+CerealAnalog analogSensor("pot", 0);
 
 // create a CerealDigital object for each digital input you will be using
 CerealDigital digitalSwitch("button", 2);

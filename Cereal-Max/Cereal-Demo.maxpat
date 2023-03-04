@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 58.5, 214.0, 24.0, 24.0 ]
+					"patching_rect" : [ 54.0, 214.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -118,8 +118,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 17.0, 185.0, 102.0, 22.0 ],
-					"text" : "route knob button"
+					"patching_rect" : [ 17.0, 185.0, 93.0, 22.0 ],
+					"text" : "route pot button"
 				}
 
 			}
