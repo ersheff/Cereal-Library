@@ -11,10 +11,12 @@ Either download a .zip file of this repository using the green Code button above
 ## Arduino Setup
 *Open the included Cereal-Arduino sketch to see a quick demonstration of the steps listed below.*
 1. Ensure that the Cereal.h, CerealAnalog.cpp, and CerealDigital.cpp files are all in the same folder as your working Arduino sketch. Alternatively, you can manually install the library [using these instructions](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#manual-installation).
-2. Include the library at the top of your sketch.
+2. When connecting buttons or switches to digital inputs, be aware that the mode for digital pins is set to INPUT_PULLUP instead of INPUT. This means that the other side of your button/switch should be connected to GND instead of 5V (many example diagrams likely show the latter). Yours should look like this:
+   <img src="pics/inputPullupButton.png" width="437px" />
+4. Include the library at the top of your sketch.
 	1. If not installed manually, use  `#include "Cereal.h"`.
 	2. If installed manually, you should be able to find Cereal under Include Library in the Sketch menu.
-3. In your Arduino sketch, before setup, create a CerealAnalog object for each analog input and/or a CerealDigital digital for each digital input that you will be using.
+5. In your Arduino sketch, before setup, create a CerealAnalog object for each analog input and/or a CerealDigital digital for each digital input that you will be using.
 	```
 	CerealAnalog name("header", pin);
 	CerealDigital name("header", pin);
