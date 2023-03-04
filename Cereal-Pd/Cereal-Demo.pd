@@ -1,0 +1,18 @@
+#N canvas 351 121 296 512 12;
+#X obj 56 115 comport 2 115200;
+#X msg 56 57 ports;
+#X obj 165 146 print;
+#X msg 102 56 close;
+#X msg 148 56 open 2;
+#X obj 56 189 Cereal-Parser;
+#X obj 56 264 route knob button;
+#X obj 114 302 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 56 303 vsl 19 162 0 1023 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
+#X connect 0 0 5 0;
+#X connect 0 1 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 6 1 7 0;
