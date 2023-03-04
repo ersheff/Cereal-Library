@@ -20,7 +20,7 @@ void setup() {
 void loop() {
 
   // call the readWrite function from each of your CerealAnalog
-  // and CerealDigital obects to read the pin and send over serial
+  // and CerealDigital obects to read the pin and write to serial
   analogSensor.readWrite();
   digitalSwitch.readWrite();
   
