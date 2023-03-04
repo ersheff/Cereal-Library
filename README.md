@@ -5,6 +5,9 @@ The Cereal Arduino library and accompanying Max and Pure Data (Pd) patches were 
 
 <img src="pics/Cereal-Logo.png" width="240px" />
 
+## Getting Started
+Either download a .zip file of this repository using the green Code button above or clone to your computer using git or GitHub Desktop.
+
 ## Arduino Setup
 *Open the included Cereal-Arduino sketch to see a quick demonstration of the steps listed below.*
 1. Ensure that the Cereal.h, CerealAnalog.cpp, and CerealDigital.cpp files are all in the same folder as your working Arduino sketch. Alternatively, you can manually install the library [using these instructions](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#manual-installation).
