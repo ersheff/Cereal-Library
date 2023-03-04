@@ -1,7 +1,7 @@
 # Cereal Library
 
 ## Description
-The Cereal Arduino library and accompanying Max and Pure Data (Pd) patches were created to help simplify serial communication for beginners, especially when using multiple sensors.
+The Cereal Arduino library and accompanying demo patches were created to help simplify serial communication with Max and Pure Data (Pd) for beginners, especially when using multiple sensors.
 
 <img src="pics/Cereal-Logo.png" width="240px" />
 
