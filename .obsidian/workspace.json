@@ -148,9 +148,11 @@
   },
   "active": "ef5404519d994de5",
   "lastOpenFiles": [
-    "Cereal-Logo.png",
-    "Cereal-Logo.png",
+    "pics/Cereal-Logo.png",
     "README.md",
+    "pics",
+    "pics/Cereal-Pd-Demo-Screenshot.png",
+    "pics/Cereal-Max-Demo-Screenshot.png",
     "Cereal-Arduino/CerealDigital.cpp",
     "Cereal-Arduino/CerealAnalog.cpp",
     "Cereal-Arduino/Cereal.h",

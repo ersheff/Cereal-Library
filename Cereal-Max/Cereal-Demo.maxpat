@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 923.0, 203.0, 280.0, 416.0 ],
+		"rect" : [ 865.0, 272.0, 365.0, 369.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 116.0, 321.0, 228.0, 33.0 ],
+					"text" : "Cereal Demo for Cereal Arduino Library\n- Eric Sheffield 2023",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.0, 107.0, 235.0, 60.0 ],
+					"text" : "you may need to change the specified port\n\nclick the print button above to see a list of available serial ports in the console"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 43.0, 12.0, 208.0, 20.0 ],
+					"text" : "must be turned on to poll serial object"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 165.0, 83.0, 22.0 ],
+					"patching_rect" : [ 17.0, 143.0, 83.0, 22.0 ],
 					"text" : "Cereal-Parser"
 				}
 
@@ -58,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 242.0, 20.0, 140.0 ],
+					"patching_rect" : [ 17.0, 214.0, 20.0, 140.0 ],
 					"size" : 1024.0
 				}
 
@@ -71,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.5, 242.0, 24.0, 24.0 ]
+					"patching_rect" : [ 58.5, 214.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -82,7 +118,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 41.0, 207.0, 102.0, 22.0 ],
+					"patching_rect" : [ 17.0, 185.0, 102.0, 22.0 ],
 					"text" : "route knob button"
 				}
 
@@ -94,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 68.0, 35.0, 22.0 ],
+					"patching_rect" : [ 148.0, 50.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -106,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 68.0, 37.0, 22.0 ],
+					"patching_rect" : [ 109.0, 50.0, 37.0, 22.0 ],
 					"text" : "close"
 				}
 
@@ -119,7 +155,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 30.0, 24.0, 24.0 ]
+					"patching_rect" : [ 17.0, 12.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -130,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.0, 68.0, 56.0, 22.0 ],
+					"patching_rect" : [ 17.0, 50.0, 56.0, 22.0 ],
 					"text" : "metro 10"
 				}
 
@@ -142,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.0, 68.0, 32.0, 22.0 ],
+					"patching_rect" : [ 75.0, 50.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -154,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 41.0, 129.0, 90.0, 22.0 ],
+					"patching_rect" : [ 17.0, 107.0, 90.0, 22.0 ],
 					"text" : "serial d 115200"
 				}
 
