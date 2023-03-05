@@ -14,8 +14,8 @@ Either download a .zip file of this repository using the green Code button above
    <img src="pics/inputPullupButton.png" width="437px" />
 2. Ensure that the Cereal.h, CerealAnalog.cpp, and CerealDigital.cpp files are all in the same folder as your working Arduino sketch. Alternatively, you can manually install the library [using these instructions](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#manual-installation).
 3. Include the library at the top of your sketch.
-	1. If not installed manually, use  `#include "Cereal.h"`.
-	2. If installed manually, you should be able to find Cereal under Include Library in the Sketch menu.
+	1. If not installed to your Arduino libraries folder, use  `#include "Cereal.h"`.
+	2. If installed to your Arduino libraries folder (using the manual installation instructions linked above), you should be able to find Cereal under Include Library in the Sketch menu.
 4. In your Arduino sketch, before setup, create a CerealAnalog object for each analog input and/or a CerealDigital digital for each digital input that you will be using.
 	```
 	CerealAnalog name("header", pin);
