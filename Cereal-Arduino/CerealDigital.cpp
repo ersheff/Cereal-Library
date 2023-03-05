@@ -14,10 +14,11 @@ CerealDigital::CerealDigital(char *header, int pin)
 
 void CerealDigital::readWrite()
 {
-  // start debounce -----
-
+  
   // the reading is flipped since we are using INPUT_PULLUP by default
   bool reading = !digitalRead(_pin);
+  
+  // start debounce -----
 
   if (reading != _lastState) {
     _lastTime = millis();
