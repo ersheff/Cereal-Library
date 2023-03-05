@@ -11,6 +11,7 @@ Either download a .zip file of this repository using the green Code button above
 ## Arduino Setup
 *Open the included Cereal-Arduino sketch to see a quick demonstration of the steps listed below.*
 1. When connecting buttons or switches, be aware that the pin mode is set to INPUT_PULLUP instead of INPUT for digital pins that use this library. This means that the other side of your button/switch needs to be connected to GND instead of 5V (many example diagrams likely show the latter). Yours should look like this:
+
    <img src="pics/inputPullupButton.png" width="437px" />
 2. Ensure that the Cereal.h, CerealAnalog.cpp, and CerealDigital.cpp files are all in the same folder as your working Arduino sketch. Alternatively, you can manually install the library [using these instructions](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#manual-installation).
 3. Include the library at the top of your sketch.
