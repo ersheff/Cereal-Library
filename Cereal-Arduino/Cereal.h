@@ -7,7 +7,7 @@ class CerealAnalog
 {
   public:
     CerealAnalog(char *header, int pin);
-    void readWrite();
+    int readWrite();
   private:
     char *_header;
     int _pin;
@@ -25,6 +25,16 @@ class CerealDigital
     bool _lastState;
     int _debounceDelay;
     unsigned long _lastTime;
+};
+
+class CerealWrite
+{
+  public:
+    CerealWrite(char *header);
+    void write(int val);
+  private:
+    char *_header;
+    int _val;
 };
 
 #endif

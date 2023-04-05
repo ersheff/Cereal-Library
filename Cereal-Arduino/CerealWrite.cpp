@@ -1,20 +1,18 @@
 #include "Arduino.h"
 #include "Cereal.h"
 
-CerealAnalog::CerealAnalog(char *header, int pin)
+CerealWrite::CerealWrite(char *header)
 {
   _header = header;
-  _pin = pin;
 }
 
-int CerealAnalog::readWrite()
+void CerealWrite::write(int val)
 {
-  int reading = analogRead(_pin);
-
+  _val = val;
   //
   Serial.write(128); // value start flag
-  Serial.write(reading&7);
-  Serial.write(reading>>3);
+  Serial.write(_val&7);
+  Serial.write(_val>>3);
   Serial.write(255); // value end flag
   
   //
@@ -23,8 +21,5 @@ int CerealAnalog::readWrite()
     Serial.write(_header[i]);
   }
   Serial.write(255); // header end flag
-
-  //
-  return reading;
 
 }
